@@ -1,0 +1,26 @@
+{
+  "name": "robot_gardener_server",
+  "version": "0.1.0",
+  "description": "Web server that sends commands to Arduino and retrieves data from it. Also responds to commands from mobile app.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Niklas Malmqvist",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4",
+    "mongodb": "^2.2.10",
+    "plotly": "^1.0.6",
+    "routes": "^2.1.0",
+    "serialport": "^4.0.1",
+    "thingspeakclient": "^0.4.0",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "rewire": "^2.5.1",
+    "sinon": "^1.17.3",
+    "supertest": "^1.2.0"
+  }
+}

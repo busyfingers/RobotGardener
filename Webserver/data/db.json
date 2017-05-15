@@ -1,0 +1,6 @@
+{
+    "errors": ["Failed to retrieve data from Arduino",
+                "Unknown command: tapdance",
+                "Failed to send command to Arduino"
+                ]     
+}
